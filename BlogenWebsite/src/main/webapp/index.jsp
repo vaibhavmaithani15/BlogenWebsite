@@ -92,6 +92,7 @@
 
             <div class="col-lg-4">
               <div class="card bg-primary text-center card-form">
+              
                 <div class="card-body">
                   <h3>Sign Up Today</h3>
                   <p>Please fill out this form to register</p>

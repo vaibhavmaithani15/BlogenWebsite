@@ -38,7 +38,7 @@ public class SignUpServlet extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try {
-//			PrintWriter out=
+			PrintWriter out=response.getWriter();
 			
 //			email and password Fetching from form...
 			userName=request.getParameter("userName");
@@ -63,6 +63,7 @@ public class SignUpServlet extends HttpServlet {
 				
 //				password and confirm password does not match
 				response.sendRedirect("index.jsp");
+			
 			}		
 			
 			
